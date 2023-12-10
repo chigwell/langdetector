@@ -1,36 +1,36 @@
 
-# LangDetectoR
+# LngDetectoR
 
-LangDetectoR is a Python tool designed to analyze directories and detect the programming languages used in the files. It provides a comprehensive report including the count of files, lines of code, and the percentage of each language present.
+LngDetectoR is a Python tool designed to analyze directories and detect the programming languages used in the files. It provides a comprehensive report including the count of files, lines of code, and the percentage of each language present.
 
 ## Installation
 
-To install LangDetectoR, you can use pip:
+To install LngDetectoR, you can use pip:
 
 ```bash
-pip install LangDetectoR
+pip install LngDetectoR
 ```
 
 ## Usage
 
 ### As a Command Line Tool
 
-You can use LangDetectoR directly from the command line. The basic usage is as follows:
+You can use LngDetectoR directly from the command line. The basic usage is as follows:
 
 ```bash
-langdetector --directory <path-to-directory>
+lngdetector --directory <path-to-directory>
 ```
 
 - `--directory`: Specify the directory you want to analyze. If not specified, it uses the current working directory.
 
 ### As a Python Module
 
-LangDetectoR can also be used as a Python module in your scripts.
+LngDetectoR can also be used as a Python module in your scripts.
 
 Example:
 
 ```python
-from langdetector.main import generate_report
+from lngdetector.main import generate_report
 
 # Generate a report for the current directory
 report = generate_report('/path/to/your/project')
@@ -45,7 +45,7 @@ print(f"Python files: {python_data['count']}, lines of code: {python_data['lines
 
 ## Output Example
 
-When you run LangDetectoR, it outputs a table with the detected languages, the count of files, lines of code, and the percentage. Here is an example output:
+When you run LngDetectoR, it outputs a table with the detected languages, the count of files, lines of code, and the percentage. Here is an example output:
 
 ```
 Total files: 50

@@ -1,5 +1,5 @@
 import os
-from langdetector.main import generate_report
+from lngdetector.main import generate_report
 
 
 report = generate_report(os.getcwd())
