@@ -64,7 +64,7 @@ Total lines of code: 1200
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/chigwell/langdetector/issues). Make sure to follow the [code of conduct](https://github.com/chigwell/langdetector/blob/main/CODE_OF_CONDUCT.md) of this project.
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/chigwell/langdetector/issues).
 
 ## License
 
