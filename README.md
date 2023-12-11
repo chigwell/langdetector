@@ -1,5 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/LngDetectoR.svg)](https://badge.fury.io/py/LngDetectoR)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Downloads](https://static.pepy.tech/badge/lngdetector)](https://pepy.tech/project/lngdetector)
 
 # LngDetectoR
 
