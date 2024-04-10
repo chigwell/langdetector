@@ -4,7 +4,7 @@
 
 # LngDetectoR
 
-LngDetectoR is a Python tool designed to analyze directories and detect the programming languages used in the files. It provides a comprehensive report including the count of files, lines of code, and the percentage of each language present.
+LngDetectoR is a Python tool designed to analyze directories and detect the programming languages used within files. It generates a comprehensive report detailing the count of files, lines of code, and the percentage of each language present.
 
 ## Installation
 
@@ -18,37 +18,37 @@ pip install LngDetectoR
 
 ### As a Command Line Tool
 
-You can use LngDetectoR directly from the command line. The basic usage is as follows:
+LngDetectoR can be utilized directly from the command line. Basic usage is as follows:
 
 ```bash
 lngdetector --directory <path-to-directory>
 ```
 
-- `--directory`: Specify the directory you want to analyze. If not specified, it uses the current working directory.
+- `--directory`: Specifies the directory to analyze. If not specified, it defaults to the current working directory.
 
 ### As a Python Module
 
-LngDetectoR can also be used as a Python module in your scripts.
+LngDetectoR can also be used within your Python scripts.
 
 Example:
 
 ```python
-from lngdetector.main import generate_report
+from lngdetector.detect import generate_report
 
-# Generate a report for the current directory
+# Generate a report for the specified directory
 report = generate_report('/path/to/your/project')
 
-# Print the pretty table
+# Display the report in a pretty table format
 report.print_pretty_table()
 
-# Get data for a specific language
+# Retrieve data for a specific language
 python_data = report.get_language_data('Python')
 print(f"Python files: {python_data['count']}, lines of code: {python_data['lines']}")
 ```
 
 ## Output Example
 
-When you run LngDetectoR, it outputs a table with the detected languages, the count of files, lines of code, and the percentage. Here is an example output:
+When you run LngDetectoR, it generates a table with the detected languages, file counts, lines of code, and their percentage contributions. Here's an example of what the output might look like:
 
 ```
 Total files: 50
@@ -65,9 +65,8 @@ Total lines of code: 1200
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](https://github.com/chigwell/langdetector/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/chigwell/langdetector/issues) for a list of proposed features (and known issues).
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
-
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
