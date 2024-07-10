@@ -1,3 +1,10 @@
+'''
+This setup.py file configures the LngDetectoR project, specifying its metadata and dependencies.
+The project is a tool for detecting programming languages in a directory.
+It includes configurations for packaging, versioning, author information, description, classifiers, entry points, etc.
+'''
+
+
 from setuptools import setup, find_packages
 
 
