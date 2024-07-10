@@ -1,3 +1,7 @@
+"""
+The mime_lang.py file maps various MIME types to their corresponding programming languages. This is used by the language detection algorithm in this project to infer a file's programming language based on its MIME type.
+"""
+
 
 mime_to_language = {
             'application/x-python-code': 'Python',
