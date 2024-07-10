@@ -1,3 +1,10 @@
+'''
+The test_report.py file contains unit tests for the Report class in the lngdetector package.
+These tests ensure that the Report class functions correctly and produces accurate results.
+They cover various scenarios such as adding files, calculating language statistics, and filtering files by extension.
+'''
+
+
 import os
 from lngdetector.detect import analyze_directory, generate_report
 
