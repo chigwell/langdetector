@@ -1,3 +1,10 @@
+'''
+This Python script is a part of the 'LngDetectoR' tool and contains functions to detect the programming language of a file.
+It uses MIME types, extensions, and a dictionary mapping these elements to languages to make its predictions.
+The function 'detect_language(file_path)' identifies the language based on the file's MIME type and extension.
+'''
+
+
 import os
 import magic
 import argparse
