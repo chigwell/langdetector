@@ -1,3 +1,10 @@
+'''
+The 'report' module in LngDetectoR handles the generation and processing of language reports.
+This file contains the Report class, which is used to store and manipulate data about languages detected by the program.
+The class includes methods for adding language data, calculating language percentages, generating a report string, etc.
+'''
+
+
 from prettytable import PrettyTable
 
 
