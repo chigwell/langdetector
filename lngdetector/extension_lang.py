@@ -1,3 +1,9 @@
+"""
+This Python file contains a dictionary that maps various file extensions to programming languages.
+It's used by the language detection module of the project for accurately identifying the language of a file based on its extension.
+The mappings in this file are essential for providing accurate language detection results.
+"""
+
 
 extension_to_language = {
             '.py': 'Python',
